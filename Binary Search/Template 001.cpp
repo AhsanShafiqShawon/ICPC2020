@@ -16,14 +16,17 @@ int binarySearch(vector<int>& nums, int target){
 }
 
 /*
-Template #1 is the most basic and elementary form of Binary Search. It is the standard Binary Search Template that most high schools or universities use when they first teach students computer science. Template #1 is used to search for an element or condition which can be determined by accessing a single index in the array.
+Template #1 is the most basic and elementary form of Binary Search.
+It is the standard Binary Search Template that most high schools or universities use when they first teach students computer science.
+Template #1 is used to search for an element or condition which can be determined by accessing a single index in the array.
 */
 
 /*
 Key Attributes:
 1. Most basic and elementary form of Binary Search
 2. Search Condition can be determined without comparing to the element's neighbors (or use specific elements around it)
-3. No post-processing required because at each step, you are checking to see if the element has been found. If you reach the end, then you know the element is not found
+3. No post-processing required because at each step, you are checking to see if the element has been found. If you reach the end,
+then you know the element is not found.
 */
 
 /*
